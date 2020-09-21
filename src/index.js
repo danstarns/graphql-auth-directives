@@ -1,7 +1,7 @@
 import { AuthorizationError } from "./errors";
 import { IncomingMessage } from "http";
 import * as jwt from "jsonwebtoken";
-import { SchemaDirectiveVisitor } from "graphql-tools";
+import { SchemaDirectiveVisitor } from "@graphql-tools/utils";
 import {
   DirectiveLocation,
   GraphQLDirective,

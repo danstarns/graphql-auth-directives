@@ -1,7 +1,7 @@
 // TODO: will need to set appropriate env vars
 
 const { ApolloServer } = require("apollo-server");
-const { makeExecutableSchema } = require("graphql-tools");
+const { makeExecutableSchema } = require("@graphql-tools/schema");
 
 const {
   IsAuthenticatedDirective,

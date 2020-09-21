@@ -50,8 +50,9 @@
     ]
   },
   "dependencies": {
+    "@graphql-tools/schema": "^6.2.3",
+    "@graphql-tools/utils": "^6.2.3",
     "apollo-errors": "^1.9.0",
-    "graphql-tools": "^4.0.7",
     "jsonwebtoken": "^8.3.0"
   },
   "peerDependencies": {
